@@ -4,11 +4,13 @@
 set -eux -o pipefail
 
 function initForge() {
+    mkdir -p contracts
     forge init --force --no-git --no-commit contracts
 }
 
 function initHardHat() {
     echo "init HardHat"
+    mkdir -p contracts
     cd contracts
     pnpm init
     pnpm install hardhat
