@@ -1,0 +1,17 @@
+contracts/**
+!contracts/src
+!contracts/scripts
+!contracts/test
+
+node_modules
+yarn.lock
+package-lock.json
+.vscode
+.idea
+logs/*
+logs
+shared
+source
+dist
+.env
+
