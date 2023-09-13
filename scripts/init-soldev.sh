@@ -15,7 +15,7 @@ function initHardHat() {
     pnpm init
     pnpm install hardhat
     pnpm hardhat init
-    mv -f contracts/contracts contracts/src
+    mv -f contracts src
 }
 
 read -rp "Init you sol dev tool! Enter 1 for Forge or 2 for HardHat: " choice
