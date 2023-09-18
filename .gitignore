@@ -1,7 +1,10 @@
 contracts/**
 !contracts/src
+!contracts/src/**
 !contracts/scripts
+!contracts/scripts/**
 !contracts/test
+!contracts/test/**
 
 node_modules
 yarn.lock
